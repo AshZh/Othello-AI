@@ -380,30 +380,30 @@ document.getElementById("ok").onclick = function() {//选择难度，先后手�
 	}
 	else if (i==4){
 
-		ai6.calculateTime = 5000
-		ai6.outcomeDepth = 15 
+		//ai6.calculateTime = 5000
+		//ai6.outcomeDepth = 15 
 		othe.play();
 	}
 	else if (i==5){
 
-		ai6.calculateTime = 5000
-		ai6.outcomeDepth = 15 
+		//ai6.calculateTime = 5000
+		//ai6.outcomeDepth = 15 
 		othe.play();
 	}
 	else if (i==6){
 		
-		ai6.calculateTime = 5000
-		ai6.outcomeDepth = 15
+		//ai6.calculateTime = 5000
+		//ai6.outcomeDepth = 15
 		othe.play();
 	}
 	else if (i==7){
-		ai6.calculateTime = 5000
-		ai6.outcomeDepth = 15
+		//ai6.calculateTime = 5000
+		//ai6.outcomeDepth = 15
 		othe.play();
 	}
 	else if (i==8){
-		ai6.calculateTime = 5000
-		ai6.outcomeDepth = 15 
+		//ai6.calculateTime = 5000
+		//ai6.outcomeDepth = 15 
 		othe.play();
 	}
 	
