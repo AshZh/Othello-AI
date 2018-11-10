@@ -158,9 +158,9 @@ function Othello(){
 		else if (map.space<=58)//这个是两步以后就开始使用startSearch来走棋了
 			//对AI进行设定
 			if(oo.aiNum==1){
-				oo.go(ai1.startSearch(map));
+				oo.go(ai6.startSearch(map));
 			}else{
-				oo.go(ai1.startSearch(map));
+				oo.go(ai6.startSearch(map));
 			}
 		else//前面两步棋都是随机走的
 			oo.go(map.nextIndex[Math.random()*map.nextIndex.length>>0]);
@@ -198,9 +198,9 @@ function Othello(){
 		
 		//对AI进行设定
 		if(oo.aiNum==1){
-			var hist = ai1.history[m.side==1?0:1][m.space];
+			var hist = ai6.history[m.side==1?0:1][m.space];
 		}else{
-			var hist = ai1.history[m.side==1?0:1][m.space];
+			var hist = ai6.history[m.side==1?0:1][m.space];
 		}
 		
 		
