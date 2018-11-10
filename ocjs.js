@@ -349,7 +349,7 @@ function Zobrist(){//Zobrist
 
 /*main*/
 var board = new Chessboard();
-var ai1 = new AI1();
+var ai6 = new AI6();
 var othe = new Othello();
 
 board.create();
@@ -368,46 +368,42 @@ document.getElementById("ok").onclick = function() {//选择难度，先后手�
 		if (ro[i].checked)
 			break;
 	othe.aiNum=i-1
-	if (i==2){//无棋可走pass
-		//var ai1 = new AI1();
-		ai1.calculateTime = 5000
-		ai1.outcomeDepth = 15
+	if (i==2){
+		ai6.calculateTime = 20
+		ai6.outcomeDepth = 7
 		othe.play();
 	}
 	else if (i==3){
-
-		//ai2.calculateTime = 5000
-		//ai2.outcomeDepth = 15
+		ai6.calculateTime = 5000
+		ai6.outcomeDepth = 15
 		othe.play();
 	}
 	else if (i==4){
 
-		//ai3.calculateTime = 5000
-		//ai3.outcomeDepth = 15 
+		ai6.calculateTime = 5000
+		ai6.outcomeDepth = 15 
 		othe.play();
 	}
 	else if (i==5){
 
-		//ai4.calculateTime = 5000
-		//ai4.outcomeDepth = 15 
+		ai6.calculateTime = 5000
+		ai6.outcomeDepth = 15 
 		othe.play();
 	}
 	else if (i==6){
 		
-		//ai5.calculateTime = 5000
-		//ai5.outcomeDepth = 15
+		ai6.calculateTime = 5000
+		ai6.outcomeDepth = 15
 		othe.play();
 	}
 	else if (i==7){
-
-		//ai6.calculateTime = 5000
-		//ai6.outcomeDepth = 15
+		ai6.calculateTime = 5000
+		ai6.outcomeDepth = 15
 		othe.play();
 	}
 	else if (i==8){
-
-		//ai7.calculateTime = 5000
-		//ai7.outcomeDepth = 15 
+		ai6.calculateTime = 5000
+		ai6.outcomeDepth = 15 
 		othe.play();
 	}
 	
