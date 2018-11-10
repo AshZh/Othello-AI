@@ -2,7 +2,7 @@
  
  
 /*AI类*/
-function AI1(){
+function AI6(){
 	var oo = this;
 
 	oo.calculateTime = 1000;	//限制每步棋计算的时间
